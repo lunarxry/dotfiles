@@ -1,0 +1,22 @@
+alias ls='exa'
+alias grep='grep --color=auto'
+
+alias mkdir='mkdir -pv'
+
+alias l='exa -lah'
+alias ll='exa -lah'
+alias la='exa -a'
+
+alias vim='nvim'
+
+alias df='df -h | grep -v tmpfs'
+alias du='du -h'
+
+alias mpv='mpv --fs --cache=yes --hwdec=auto'
+
+alias g='git'
+alias gs='git status'
+alias gl='git log'
+
+alias htop='btop'
+alias top='btop'
